@@ -5,31 +5,56 @@ using UnityEngine.SceneManagement;
 
 public class startGame : MonoBehaviour
 {
-    public string levels;
-    public void startBtn(){
-    SceneManager.LoadScene ("Level");
+  public string levels;
+
+
+  
+ public void startScreen(){
+    SceneManager.LoadScene ("Start");
 
     }
 
-public void LevelReset(){
+  public void startBtn(){
+    SceneManager.LoadScene ("LevelScreen");
 
-SceneManager.LoadScene ("Level");
- }
+    }
 
- public void LeveloneReset(){
+   public void LeveloneLoad(){
 
-SceneManager.LoadScene ("Level1");
- }
+   SceneManager.LoadScene ("Level1");
+    }
 
- public void LevelTwoReset(){
+   public void LeveloneReset(){
 
-SceneManager.LoadScene ("Level2");
- }
+   SceneManager.LoadScene ("Level1");
+    }
+//----------------------------------------
+    public void LevelTwoLoad(){
 
-//   public void LevelThreeReset(){
+    SceneManager.LoadScene ("Level2");
+    }
 
-// SceneManager.LoadScene ("Level2");
-//  }
+    public void LevelTwoReset(){
+
+    SceneManager.LoadScene ("Level2");
+    }
+//--------------------------------------------
+
+
+    public void LevelThreeLoad(){
+
+    SceneManager.LoadScene ("Level3");
+    }
+
+
+    public void LevelThreeReset(){
+
+    SceneManager.LoadScene ("Level3");
+    }
+
+ //-------------------------------------------
+
+
 
 
 
