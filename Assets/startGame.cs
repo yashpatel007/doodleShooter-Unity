@@ -54,7 +54,31 @@ public class startGame : MonoBehaviour
 
  //-------------------------------------------
 
+    
+    public void LevelFourLoad(){
 
+    SceneManager.LoadScene ("Level4");
+    }
+
+
+    public void LevelFourReset(){
+
+    SceneManager.LoadScene ("Level4");
+    }
+
+    //---------------------------------------
+
+
+    public void LevelFiveLoad(){
+
+    SceneManager.LoadScene ("Level5");
+    }
+
+
+    public void LevelFiveReset(){
+
+    SceneManager.LoadScene ("Level5");
+    }
 
 
 

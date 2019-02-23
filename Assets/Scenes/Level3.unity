@@ -1101,7 +1101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc98f9aaa225047eb8ab0514d78188de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadLevel: Level1
+  loadLevel: Level4
 --- !u!212 &767068942
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1140,7 +1140,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 12a28fbee58eeaf458a83ccdc35f7f8a, type: 3}
-  m_Color: {r: 0.12807101, g: 0.013082923, b: 0.9245283, a: 0.047058824}
+  m_Color: {r: 0.12807101, g: 0.013082923, b: 0.9245283, a: 0.101960786}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
