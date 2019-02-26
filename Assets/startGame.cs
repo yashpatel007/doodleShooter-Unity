@@ -80,6 +80,18 @@ public class startGame : MonoBehaviour
     SceneManager.LoadScene ("Level5");
     }
 
+   //--------------------
+    
+    public void LevelSixLoad(){
+
+    SceneManager.LoadScene ("Level6");
+    }
+
+
+    public void LevelSixReset(){
+
+    SceneManager.LoadScene ("Level6");
+    }
 
 
 

@@ -266,6 +266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 49684535}
   releaseTime: 0.15
+  hook: {fileID: 1882676160}
+  maxDragDistance: 2
 --- !u!1 &201441322
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,7 +975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc98f9aaa225047eb8ab0514d78188de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadLevel: Level1
+  loadLevel: Level6
 --- !u!212 &767068942
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -9,12 +9,22 @@ public class Ball : MonoBehaviour {
 	private bool isPressed = false;
 
 	public float releaseTime = .15f; 
+	public Rigidbody2D hook;
+	public float maxDragDistance = 2f;
 
 	void Update ()
 	{
 		if (isPressed)
 		{
-			rb.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+			Vector2 mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			if (Vector3.Distance(mousepos,hook.position) > maxDragDistance){
+				//
+				rb.position =hook.position + (mousepos - hook.position).normalized * maxDragDistance;
+			}
+			
+			else{
+			rb.position = mousepos;}
 		}
 	}
 
