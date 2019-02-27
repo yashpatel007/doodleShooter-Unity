@@ -92,7 +92,11 @@ public class startGame : MonoBehaviour
 
     SceneManager.LoadScene ("Level6");
     }
+//---------------------------------
+     public void LoadAbout(){
 
+     	SceneManager.LoadScene("About");
+     }
 
 
     
