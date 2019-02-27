@@ -92,6 +92,44 @@ public class startGame : MonoBehaviour
 
     SceneManager.LoadScene ("Level6");
     }
+
+//-----------------------------------
+     public void LevelSevenLoad(){
+
+    SceneManager.LoadScene ("Level7");
+    }
+
+
+    public void LevelSevenReset(){
+
+    SceneManager.LoadScene ("Level7");
+    }
+
+//-------------------------------------
+     public void LevelEightLoad(){
+
+    SceneManager.LoadScene ("Level8");
+    }
+
+
+    public void LevelEightReset(){
+
+    SceneManager.LoadScene ("Level8");
+    }
+
+//-------------------------------------
+     public void LevelNineLoad(){
+
+    SceneManager.LoadScene ("Level9");
+    }
+
+
+    public void LevelNineReset(){
+
+    SceneManager.LoadScene ("Level9");
+    }
+
+
 //---------------------------------
      public void LoadAbout(){
 
