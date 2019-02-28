@@ -135,7 +135,12 @@ public class startGame : MonoBehaviour
 
      	SceneManager.LoadScene("About");
      }
+//---------------------------------
 
+     public void complete(){
+
+        SceneManager.LoadScene("complete");
+     }
 
     
     }
